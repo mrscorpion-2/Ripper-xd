@@ -226,7 +226,7 @@ async function helpCommand(sock, chatId, message) {
 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴍᴏʀᴇ ᴜᴏᴅᴀᴛᴇs:`;
 
     try {
-        const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
+        const imagePath = path.join(__dirname, '../asset/bot_image.png');
         
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
